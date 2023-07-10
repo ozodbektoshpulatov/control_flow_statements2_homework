@@ -12,7 +12,6 @@ def main(a,b,c):
         return a
     elif b>=a and b<=c:
         return b
-    else:
-        return c
+    return c
 print(main(4,8,6))    
     
